@@ -4,6 +4,8 @@ int main() {
 
     int time, hour, min, sec, state;
 
+    printf("----------------------------------------------------\n");
+
     printf("Enter your time in hours: \n", hour);
     scanf("%d",&hour);
     printf("Enter your time in minutes: \n", min);
@@ -12,6 +14,8 @@ int main() {
     scanf("%d",&sec);
 
     if (hour <= 12 && min <= 59 && sec <= 59) {
+    
+        printf("----------------------------------------------------\n");
 
         printf("Enter 1 for 'am' & 2 for 'pm'\n");
         printf("Enter your choice: \n", state);
@@ -58,7 +62,10 @@ int main() {
     }
 
     else {
-        printf("\tYour input values are inapplicable\n");
+
+        printf("----------------------------------------------------\n");
+
+        printf("\t~Your input values are inapplicable~\n");
     }
 
 return 0;
