@@ -59,6 +59,7 @@ int main() {
                 printf("\t\t%d : %d : %d\n\n", hour, min, sec);
             }
         }
+        printf("---------------------------------------------\n");
     }
 
     else {
