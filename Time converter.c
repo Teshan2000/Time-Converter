@@ -25,37 +25,37 @@ int main() {
 
         if (state == 1) {
             if (hour < 12) {
-                printf("------------Regular time notation------------\n");
+                printf("|------------Regular time notation------------|\n");
                 printf("\t\t%d : %d : %d am\n\n", hour, min, sec);
 
-                printf("------------Standard time notation-----------\n");
+                printf("|------------Standard time notation-----------|\n");
                 printf("\t\t%d : %d : %d\n\n", hour, min, sec);
             }
 
             else {
-                printf("------------Regular time notation------------\n");
+                printf("|------------Regular time notation------------|\n");
                 printf("\t\t%d : %d : %d am\n\n", hour, min, sec);
 
-                printf("------------Standard time notation-----------\n");
+                printf("|------------Standard time notation-----------|\n");
                 printf("\t\t00 : %d : %d\n\n", min, sec);
             }
         }
 
         else {
             if (hour < 12) {
-                printf("------------Regular time notation------------\n");
+                printf("|------------Regular time notation------------|\n");
                 printf("\t\t%d : %d : %d pm\n\n", hour, min, sec);
 
                 time = hour + 12;
-                printf("------------Standard time notation-----------\n");
+                printf("|------------Standard time notation-----------|\n");
                 printf("\t\t%d : %d : %d\n\n", time, min, sec);
             }
 
             else {                
-                printf("------------Regular time notation------------\n");
+                printf("|------------Regular time notation------------|\n");
                 printf("\t\t%d : %d : %d pm\n\n", hour, min, sec);
 
-                printf("------------Standard time notation-----------\n");
+                printf("|------------Standard time notation-----------|\n");
                 printf("\t\t%d : %d : %d\n\n", hour, min, sec);
             }
         }
